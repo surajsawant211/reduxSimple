@@ -1,7 +1,7 @@
 // Redux swag:-
 
 import { useContext } from "react"
-import { useSelector } from "react-redux"
+import { Provider, useSelector } from "react-redux"
 
 // -it is state management library for react.
 // -redux is the library which is used to mainain the states of the application in a single place is called store.
@@ -48,3 +48,9 @@ import { useSelector } from "react-redux"
 
 
     // we are going to use useContext in react and useSelector in redux ibstead of consumer
+    
+    Provider
+    // The <Provider> component makes the Redux store available to any nested components that need to access the Redux store.
+
+    useSelector()
+    // Allows you to extract data from the Redux store state, using a selector function.
